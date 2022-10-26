@@ -1,0 +1,52 @@
+/* Lab 3 Aidan Kearney 09/10/2022  multiple examples of justified content are shown below
+
+Have 3 columns at some point in the design
+Use Justified Content
+Use a media query to change some aspect of your design at smaller widths
+
+Example of a media query below*/
+@media(min-width:768px){
+	 .container1{
+		display:flex; 
+		justify-content:center;	
+		border:1px #ccc solid;
+		padding:10px;	  
+		justify-content:space-around;
+    }
+	
+/* Example columns below*/
+	  .sub-container{
+		flex-basis: auto;
+		justify-content: flex-end;	
+	}
+}
+
+p{
+	color:black;
+	font-family:Helvetica;
+	text-align: center;
+}
+h1{
+	color:black
+	font-family:Helvetica;
+	text-align: center;
+}
+
+h2{
+	color:black;
+	font-family:Arial;
+	text-align: center;
+}
+
+h3{
+	color:green;
+	font-family:Arial;
+	text-align: center;
+}
+
+skills{
+	color:green;
+	font-family:Arial;
+	text-align: center;
+}
+
