@@ -1,52 +1,37 @@
-/* Lab 3 Aidan Kearney 09/10/2022  multiple examples of justified content are shown below
-
-Have 3 columns at some point in the design
-Use Justified Content
-Use a media query to change some aspect of your design at smaller widths
-
-Example of a media query below*/
-@media(min-width:768px){
-	 .container1{
-		display:flex; 
-		justify-content:center;	
-		border:1px #ccc solid;
-		padding:10px;	  
-		justify-content:space-around;
-    }
-	
-/* Example columns below*/
-	  .sub-container{
-		flex-basis: auto;
-		justify-content: flex-end;	
-	}
-}
-
-p{
-	color:black;
-	font-family:Helvetica;
-	text-align: center;
-}
-h1{
-	color:black
-	font-family:Helvetica;
-	text-align: center;
-}
-
-h2{
-	color:black;
-	font-family:Arial;
-	text-align: center;
-}
-
-h3{
-	color:green;
-	font-family:Arial;
-	text-align: center;
-}
-
-skills{
-	color:green;
-	font-family:Arial;
-	text-align: center;
-}
-
+/* https://www.w3docs.com/tools/code-editor/4009  (copied for flashing button)
+Week 8 Lab Aidan Kearney 
+Using if statements, create a rock, paper, scissors game.*/
+      .button {
+        background-color: #1c87c9;
+        -webkit-border-radius: 60px;
+        border-radius: 60px;
+        border: none;
+        color: #eeeeee;
+        cursor: pointer;
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+      }
+      @keyframes glowing {
+        0% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          background-color: #49e819;
+          box-shadow: 0 0 20px #49e819;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+      }
+      .button {
+        animation: glowing 1300ms infinite;
+      }
+	  .box{
+		  background-color: #eeeee4;
+	  }
