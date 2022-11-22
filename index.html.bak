@@ -5,7 +5,7 @@ Using if statements, create a rock, paper, scissors game. -->
 <html>
  
 <head>
-    <title>Rock Paper Scissors Game</title>
+    <title>Rock Paper Scissors Game Week 8 Lab</title>
 	<link rel="stylesheet" href="style.css"/>
 </head>
  
@@ -18,10 +18,13 @@ Using if statements, create a rock, paper, scissors game. -->
 		<div class="wrapper">
 		  <a class="button" onclick="send()">Click here to play!</a>
 		  </a>
+		  <br>
 		</div>
-		
+		<br>
                       <div class="box">
-                        <a class="nav-link active" aria-current="page" href="../lab9/index.html">Week 9 Lab</a>
+					  <br>
+                        <a class="nav-link active" aria-current="page" href="../Lab9/index.html">Link to week 9 Lab</a>
+					<br>
                       </div>
     
 <script src="script.js"></script> 
