@@ -1,0 +1,31 @@
+<!-- Week 8 Lab Aidan Kearney
+Using if statements, create a rock, paper, scissors game. -->
+<!DOCTYPE html>
+
+<html>
+ 
+<head>
+    <title>Rock Paper Scissors Game</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+ 
+<body style="text-align:center;">
+
+<div class="box">
+	<h1>Rock Paper Scissors Game</h1>
+	<h2>Select 0 for rock, 1 for paper and 2 for scissors.</h2>
+</div>
+		<div class="wrapper">
+		  <a class="button" onclick="send()">Click here to play!</a>
+		  </a>
+		</div>
+		
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+    
+<script src="script.js"></script> 
+
+</body>
+ 
+</html>
