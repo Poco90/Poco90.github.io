@@ -1,10 +1,12 @@
-<!-- // Week 10  Question 6 Aidan Kearney -->
-<!-- //Create a grocery list application where users can add and remove items from a list. The list should be //displayed as a bulleted unordered list -->
+<!-- Week 8 Lab Aidan Kearney
+Using if statements, create a rock, paper, scissors game. -->
 <!DOCTYPE html>
+
 <html>
 <head>
-    <title>Shopping List: Week 10 Q6</title>
+    <title>Shopping List</title>
 	<!-- <link rel="stylesheet" href="style.css"/> -->
+	
 </head>
  
 <body onload="listShopping()">
