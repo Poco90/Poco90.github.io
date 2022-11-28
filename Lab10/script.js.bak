@@ -21,8 +21,9 @@ function removeFromEnd(){
 	document.getElementById("main").innerHTML = "";  //Looking for a way to to refresh inner html, without this the list was just being appended.
 	for (i = 0; i < shoppingList.length; i++)
 	document.getElementById("main").innerHTML += "<li>"+ shoppingList[i]+": " + (i) +"</li>";
+
+
 	// console.table(shoppingList);
-	
 	/* document.getElementById("main").innerHTML = ""; 
 	// $('#mydiv').load(document.URL +  ' #mydiv');
 	/* location.reload(); */
@@ -38,12 +39,11 @@ function removeFromEnd(){
 			// window.setInterval("main()", 20000);
 
 }
-
+//Code trying to refresh or update the inner html
 // function reload(){
     // var container = document.getElementById("main");
     // var content = container.innerHTML;
     // container.innerHTML= content; 
-    
    // this line is to watch the result in console , you can remove it later	
     // console.log("Refreshed"); 
 // }
